@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "lesson13-telegramm-bot-exchangerates"
+version = "0.1.0"
+description = ""
+authors = ["AleksandrStrulkov <astrulkov@yandex.ru>"]
+readme = "README.md"
+packages = [{include = "lesson13_telegramm_bot_exchangerates"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
